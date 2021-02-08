@@ -1,0 +1,65 @@
+[
+  {
+    "id": "11",
+    "name": "melusine",
+    "image": "lorem/ipsum",
+    "description": "french female found in fountain",
+    "habitat": "fresh water"
+  },
+  {
+    "id": "22",
+    "name": "selkie",
+    "image": "lorem/ipsum",
+    "description": "shapeshifting seal females",
+    "habitat": "salt water"
+  },
+  {
+    "id": "33",
+    "name": "nymph",
+    "image": "lorem/ipsum",
+    "description": "tree woman",
+    "habitat": "woodland"
+  },
+  {
+    "id": "44",
+    "name": "desert monster",
+    "image": "lorem/ipsum",
+    "description": "desert monster description",
+    "habitat": "desert"
+  },
+  {
+    "id": "55",
+    "name": "mountain monster",
+    "image": "lorem/ipsum",
+    "description": "mountain monster description",
+    "habitat": "mountains"
+  },
+  {
+    "id": "66",
+    "name": "swamp monster",
+    "image": "lorem/ipsum",
+    "description": "swamp monster description",
+    "habitat": "swamp"
+  },
+  {
+    "id": "77",
+    "name": "roc",
+    "image": "lorem/ipsum",
+    "description": "air monster description",
+    "habitat": "air"
+  },
+  {
+    "id": "88",
+    "name": "simurgh",
+    "image": "lorem/ipsum",
+    "description": "air monster description",
+    "habitat": ""
+  },
+  {
+    "id": "99",
+    "name": "undine",
+    "image": "lorem/ipsum",
+    "description": "fresh water female",
+    "habitat": "fresh water"
+  }
+]
