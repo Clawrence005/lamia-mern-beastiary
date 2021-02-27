@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import BeastList from '../components/BeastList';
 
 function HomePage() {
-  return (<>
-    <p>Homepage</p>
-    <BeastList />
-  </>
+  return (
+    <div>
+      <p>Homepage</p>
+      <BeastList />
+    </div>
   );
 }
 
