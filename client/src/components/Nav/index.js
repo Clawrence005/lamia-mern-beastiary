@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from './../..//assets/logo.svg';
 import './style.css';
 
 function Nav() {
   return (
     <nav className="nav-main">
-      <h1>Beastiary</h1> <p>logo</p>
-      <Link to="/">Home</Link>
-      <Link to="/map/">Map</Link>
-      <Link to="/all/">All Beasts</Link>
-      <Link to="/2">Home2</Link>
+      <img src={logo} className="logo" alt="image" />
+      <h1 className="nav-title">Beastiary</h1>
+      <Link class="nav-link" to="/">Home</Link>
+      <Link class="nav-link" to="/map/">Map</Link>
+      <Link class="nav-link" to="/all/">All Beasts</Link>
+      <Link class="nav-link" to="/2">Home2</Link>
     </nav>
   )
 }
