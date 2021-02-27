@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import BeastList from '../components/BeastList';
 
 function HomePage() {
-  return (
+  return (<>
     <p>Homepage</p>
+    <BeastList />
+  </>
   );
 }
 

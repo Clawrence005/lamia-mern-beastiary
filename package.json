@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
     "client": "cd client && npm run start",
+    "server": "node server",
     "dev": "concurrently --n 'server, client' -c 'green,blue' \"npm run start\" \"npm run client\"",
     "build": "cd client && npm install && npm run build"
   },
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/Clawrence005/lamia-mern-beastiary#readme",
   "dependencies": {
     "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
