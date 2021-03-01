@@ -1,12 +1,10 @@
-.App {
-  text-align: center;
+path {
+	transition: .6s fill;
+	fill: #D3D3D3;
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+path:hover {
+	fill: #22aa22;
+}
+.world-map-svg{
+width:100%;
+}

@@ -1,8 +1,6 @@
 .nav-main{
   background-color: #363636;
   display: flex; 
-    /* justify-content:space-around; */
-    /* display: inline-block; */
     height: 3rem;
     width: 100vw;
 }
@@ -13,8 +11,6 @@
 
 .nav-link{
   color:whitesmoke;
-  /* justify-content:space-around; */
-  /* justify-items: end; */
   margin: 1rem;
 }
 
