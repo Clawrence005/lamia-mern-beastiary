@@ -1,0 +1,29 @@
+footer{
+  /* display: inline-block; */
+  padding: 2rem;
+  text-align: center;
+  background-color: #363636;
+  color: whitesmoke;
+  /* height: 5rem; */
+}
+.footer-img{
+width: 3rem;
+}
+
+.footer-parent{
+  /* display: flex; */
+  /* border:3px solid turquoise; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.footer-child{
+  /* flex:1; */
+  /* border:3px solid turquoise; */
+} 
+.footer-child > ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
