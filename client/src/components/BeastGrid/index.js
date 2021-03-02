@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import BeastDetail from '../BeastDetail';
-
-function BeastList() {
+import './style.css';
+function BeastGrid() {
   const [beasts, setBeasts] = useState([]);
 
   // useEffect(() => {
@@ -25,10 +25,8 @@ function BeastList() {
   }, []);
 
   return (
-    <div>
-      <p>BeastList</p>
+    <div className='beast-grid'>
       {console.log(`beasts", ${beasts}`)}
-      <div>Beasts</div>
 
       { beasts.map((beast) =>
         <BeastDetail
@@ -44,4 +42,4 @@ function BeastList() {
 }
 
 
-export default BeastList;
+export default BeastGrid;

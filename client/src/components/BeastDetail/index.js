@@ -1,8 +1,9 @@
 import React from 'react';
+import './style.css';
 
 function BeastDetail(props) {
   return (
-    <div key={props.id}>
+    <div className="beast-card" key={props.id}>
       <p>{props.id}</p>
       <strong>{props.name}</strong>
       <p>{props.name}</p>

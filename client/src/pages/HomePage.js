@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import BeastList from '../components/BeastList';
+import BeastGrid from '../components/BeastGrid';
+import BeastContainer from '../components/BeastContainer';
 
 function HomePage() {
   return (
     <div>
       <p>Homepage</p>
-      <BeastList />
+      <BeastContainer>
+        <BeastGrid />
+      </BeastContainer>
     </div>
   );
 }
