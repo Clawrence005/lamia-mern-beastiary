@@ -2,10 +2,10 @@ import React from 'react';
 import BeastGrid from '../components/BeastGrid';
 import BeastContainer from '../components/BeastContainer';
 
-function HomePage() {
+function AllBeastsPage() {
   return (
     <div>
-      <p>Homepage</p>
+      <p>All Beasts</p>
       <BeastContainer>
         <BeastGrid />
       </BeastContainer>
@@ -13,4 +13,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default AllBeastsPage;

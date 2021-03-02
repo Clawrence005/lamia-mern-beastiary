@@ -6,7 +6,7 @@ function MapPage() {
 			<h2>World Map</h2>
 			<p>click an area to see who inhabits it</p>
 			<svg className="world-map-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-				width="653.56px" height="297.18px" viewBox="0 0 653.56 297.18"
+				viewBox="0 0 653.56 297.18"
 				space="preserve" preserveAspectRatio="xMinYMin meet">
 
 				<a xlinkHref="/africaasia">

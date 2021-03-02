@@ -10,7 +10,7 @@ function Nav() {
       <h1 className="nav-title">Beastiary</h1>
       <Link className="nav-link" to="/">Home</Link>
       <Link className="nav-link" to="/map/">Map</Link>
-      <Link className="nav-link" to="/all/">All Beasts</Link>
+      <Link className="nav-link" to="/allbeasts">All Beasts</Link>
       <Link className="nav-link" to="/2">Home2</Link>
     </nav>
   )
