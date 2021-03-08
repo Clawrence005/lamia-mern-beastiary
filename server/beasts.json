@@ -53,7 +53,7 @@
     "name": "simurgh",
     "image": "lorem/ipsum",
     "description": "air monster description",
-    "habitat": ""
+    "habitat": "air"
   },
   {
     "id": "99",

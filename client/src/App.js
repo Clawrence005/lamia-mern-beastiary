@@ -4,7 +4,7 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import AllBeastsPage from './pages/AllBeastsPage';
 import MapPage from './pages/MapPage';
-import Beast from './pages/Beast';
+import BeastPage from './pages/BeastPage';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 
@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/allbeasts" component={AllBeastsPage} />
         <Route path="/map" component={MapPage} />
-        <Route path="/:beastId" component={Beast} />
+        <Route path="/beasts/:beastId" component={BeastPage} />
 
       </Switch>
     </BrowserRouter>

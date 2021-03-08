@@ -6,9 +6,9 @@ function HomePage() {
   return (
     <div>
       <p>Homepage</p>
-      <BeastContainer>
+      {/* <BeastContainer>
         <BeastGrid />
-      </BeastContainer>
+      </BeastContainer> */}
     </div>
   );
 }
