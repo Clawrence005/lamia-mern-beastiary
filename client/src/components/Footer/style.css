@@ -21,6 +21,12 @@ width: 3rem;
   /* flex:1; */
   /* border:3px solid turquoise; */
 } 
+
+.footer-link{
+text-decoration: none;
+color: pink;
+}
+
 .footer-child > ul {
   margin: 0;
   padding: 0;

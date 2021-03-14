@@ -7,12 +7,6 @@ import './style.css';
 function BeastGrid() {
   const [beasts, setBeasts] = useState([]);
 
-  // useEffect(() => {
-  //   axios.get('/api/beasts')
-  //     .then(res => res.data.beasts)
-  //     .then(beasts => setBeasts(beasts))
-  // }, []);
-
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(

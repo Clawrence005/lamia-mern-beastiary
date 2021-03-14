@@ -20,25 +20,25 @@ function Footer() {
         <div className="footer-child">
           <p>About</p>
           <ul>
-            <li>instagram</li>
-            <li>dribbble</li>
-            <li>instagram</li>
+            <li><a className="footer-link" href="https://www.google.com/">instagram</a></li>
+            <li><a className="footer-link" href="https://www.google.com/">dribbble</a></li>
+            <li><a className="footer-link" href="https://www.google.com/">instagram</a></li>
           </ul>
         </div>
         <div className="footer-child">
           <p>Something else</p>
           <ul>
-            <li>instagram</li>
-            <li>dribbble</li>
-            <li>instagram</li>
+            <li><a className="footer-link" href="https://www.google.com/">instagram</a></li>
+            <li><a className="footer-link" href="https://www.google.com/">dribbble</a></li>
+            <li><a className="footer-link" href="https://www.google.com/">instagram</a></li>
           </ul>
         </div>
         <div className="footer-child">
           <p>Contact Us</p>
           <ul>
-            <li>instagram</li>
-            <li>dribbble</li>
-            <li>instagram</li>
+            <li><a className="footer-link" href="https://www.google.com/">instagram</a></li>
+            <li><a className="footer-link" href="https://www.google.com/">dribbble</a></li>
+            <li><a className="footer-link" href="https://www.google.com/">instagram</a></li>
           </ul>
         </div>
       </div>

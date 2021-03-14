@@ -32,58 +32,19 @@ function BeastPage() {
     fetchData();
   }, []);
 
-  // useEffect(() => {
-  //   axios.get(`/api/beasts/${beastId}`)
-  //     .then(({ data: beast }) => {
-  //       console.log("beast", beast.name)
-  //       console.log("beast", beast)
-  //       setBeast(beast);
-  //     })
-  // }, []);
   if (isLoading) {
     return (<h1>loading</h1>)
   }
   if (!isLoading) {
-    return (<>
-      <p>Beast Name: {beastName}</p>
-      <p>Beast habitat: {beastHabitat}</p>
+    return (<div className="beast-page-container">
+      <h3>{beastName}</h3>
+      <h4>subtitle</h4>
       <p>Beast Image: {beastImage}</p>
+      <p>Beast habitat: {beastHabitat}</p>
       <p>Beast Description: {beastDescription}</p>
-    </>
+    </div>
     )
   }
-  // return (
-  //   <>
-  {/* <BeastDetail
-        key={beast.id}
-        id={beast.id}
-        name={beast.name}
-        description={beast.description}
-        habitat={beast.habitat}
-        link={beast.id}
-      /> */}
-
-  {/* {isLoading === true ? <p>"poop"</p> : <p>{this.state.beast.name}</p>} */ }
-  {/* <p>Beast id{beast.id}</p> */ }
-  {/* {!isLoading &&
-        beast.name} */}
-
-  {/* {!isLoading ? <p>{beast.name}</p> : "loading"} */ }
-  {/* <p>{isLoading ? 'loading' : "not loading"}</p>
-      <p>Beast name{beast.name}</p>
-   
-      <p>Beast description{beast.description}</p> */}
-
-  //   </>
-  // );
 }
-
-// function Beast(props) {
-//   return (<>
-//     <p>Beast detail</p>
-//     <p>{props.name} </p>
-//   </>
-//   );
-// }
 
 export default BeastPage;
